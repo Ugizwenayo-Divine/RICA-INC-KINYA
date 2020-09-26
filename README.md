@@ -1,2 +1,2 @@
-# RICA-INC-KINYA
-Rica incorporation kinyarwanda version
+# RICA-INC
+The RICA INC application for selling online and advertising their services
