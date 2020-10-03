@@ -19,8 +19,9 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.19",
     "morgan": "^1.10.0",
-    "node-fetch": "^2.6.0",
-    "node-forge": "^0.9.1",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "node-forge": "^0.10.0",
     "nodemon": "^2.0.4",
     "pg": "^8.3.0",
     "pg-hstore": "^2.3.3",
@@ -49,7 +50,8 @@
     "undo": "npx sequelize-cli db:migrate:undo:all",
     "seed": "npx sequelize-cli db:seed:all",
     "undo-seed": "npx sequelize-cli db:seed:undo:all",
-    "momo": "cross-env NODE_ENV=development && babel-node ./server/payment/momoPayment.js"
+    "momo": "cross-env NODE_ENV=development && babel-node ./server/payment/momoPayment.js",
+    "build": "babel server -d public"
   },
   "repository": {
     "type": "git",
