@@ -31,12 +31,7 @@ module.exports = {
         type: Sequelize.DATEONLY
       }
     },
-    {
-      uniqueKeys: {
-        feedbackExistsAlready: {
-            fields: ['createdBy', 'createdAt', 'feedback']
-        }
-    } });
+    {});
   },
   down: async (queryInterface, Sequelize) => {
     await queryInterface.dropTable('Feedbacks');
